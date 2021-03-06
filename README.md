@@ -12,7 +12,7 @@ I always thought that A4988 could provide 5V voltage, but I was wrong.
 The motherboard lacks a 5V voltage regulator module, so a small voltage regulator module should be added on the reverse side of the board.
 In fact, it's something that can be solved by directly adding 10uF capacitor and AMS1117-5.0.
 
-# target
+# Target
 希望有一天有人能把它用到Arduino 雕刻机上。
 另外PC端用到了一个USR-VCOM的国产软件，可以识别局域网中的TCP串口模拟端口。
 值得注意的是，这套代码不仅是为了Arduino Nano而设计的，几乎所有的Arduino都能使用它来实现无线烧录代码，和无线串口传输。
